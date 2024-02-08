@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire Sécurisé</title>
+    
+    <link rel="stylesheet" href="bootstrap-5.2.3/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-5.2.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container mt-5" id="formId">
+        <div class="card mx-auto" style="max-width: 500px; padding: 30px; background-color:cornsilk;">
+            <a href="index.html">
+                <img src="paris8.png" class="card-img-top" alt="Logo" width="10dp", height="mx-auto">
+            </a>
+            <div class="card-body">
+                <form action="traitement.php" method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="identifiant">Identifiant :</label>
+                        <input type="text" class="form-control" id="identifiant" name="identifiant" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="motDePasse">Mot de passe :</label>
+                        <input type="password" class="form-control" id="motDePasse" name="motDePasse" minlength="8" maxlength="16" accept="@#$%^&()" required>
+                    </div>
+                    <br>
+                    <div class="d-flex justify-content-between">
+                        <button type="reset" class="btn btn-danger">Réinitialiser</button>
+                        <button type="submit" class="btn btn-success" name="signIn">Se connecter</button>
+                        <button type="submit" class="btn btn-primary" name="signUp">Ajouter Compte</button>
+                    </div>
+                    <br>
+                    <div id="msgAlert" class="alert d-none" role="alert">
+                        Authentification réussie avec succés
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>    
+
+    <script src="script.js"></script>
+    <script src="bootstrap-5.2.3/dist/js/bootstrap.js"></script>
+    <script src="bootstrap-5.2.3/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
