@@ -1,4 +1,4 @@
-##Formulaire Securisé
+#Formulaire Securisé
 Dans ce projet, on a utilise HTML pour la mise en page, BOOTSTAP pour le design de notre formulaire, JAVASCRIPT pour dynamiser les messages avec bootstrap, PHP pour gerer 
 tous ce qui est les operations d'inscription et d'authentification de notre formulaire et MYSQL pour le stockage et l'administration de notre base de donnees.
 #Utilisation
