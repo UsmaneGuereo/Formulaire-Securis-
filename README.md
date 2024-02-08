@@ -5,13 +5,13 @@ Creation d'un formulaire securisé avec HTML Bootstrap JavaScript et PHP
 
 
 ├── LICENSE
-├── Makefile           <- Makefile avec des commandes comme 'make data' ou 'make train'
-├── README.md          <- Le fichier README pour les développeurs qui utilisent ce projet.
+├── Makefile
+├── README.md
 ├── data
-│   └── raw            <- Dossier pour les fichiers sources de nos données .
+│   └── raw
 │       └── Healthcare-Diabetes.csv
 │
-├── reports            <- Analyses générées au format PNG.
+├── reports
 │   └── figures        <- Graphiques et chiffres générées à utiliser dans le rapport
 │
 ├── setup.py           <- Rend le projet pip installable (pip install -e .) afin que src puisse être importé
