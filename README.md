@@ -1,9 +1,3 @@
-# Formulaire-Securisé
-Creation d'un formulaire securisé avec HTML Bootstrap JavaScript et PHP
-
-
-
-
 ├── LICENSE
 ├── Makefile
 ├── README.md
@@ -31,6 +25,11 @@ Creation d'un formulaire securisé avec HTML Bootstrap JavaScript et PHP
 │   │   ├── model_random_forest.py
 │   │   └── model_svc.py
 │   │
+
+
+
+# Formulaire-Securisé
+Creation d'un formulaire securisé avec HTML Bootstrap JavaScript et PHP
 │   └── visualization  <- Scripts pour créer des visualisations exploratoires et axées sur les résultats
 │       └── visualize.py
 │
