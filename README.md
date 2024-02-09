@@ -1,6 +1,29 @@
 # Formulaire Securisé
 Dans ce projet, on a utilise HTML pour la mise en page, BOOTSTAP pour le design de notre formulaire, JAVASCRIPT pour dynamiser les messages avec bootstrap, PHP pour gerer 
 tous ce qui est les operations d'inscription et d'authentification de notre formulaire et MYSQL pour le stockage et l'administration de notre base de donnees.
+
+## Détails sur la Structure
+
+- **bootstrap-5.2.3/** 
+  - **dist/** 
+    - **css/**        : Dossier boostrap css pour le design
+    - **js/**         : Dossier boostrap js pour la dynamisation
+  
+- **illustrations/**  : Illustrations des resultats
+  - `success.png`     : Illuatration du message quant on s'est authentifier avec success.
+  - `Failed.png`      : Illuatration du message quant l'authentification a echoue.
+  - `signUp.png`      : Illuatration du message quant on creer un nouveau utilisateur.
+  - `Already_use.png` : Illuatration du message quant l'identifiant qu'on utilise existe deja.
+  - `form.png`        : Illuatration du formulaire de base.
+    
+- `index.html`        : Fichier de la structure de base du formulaire.
+- `paris8.png`        : Logo du formulaire.
+- `README.md`         : Fichier de documentation du projet.
+- `script.js`         : Fichier js pour dynamiser les messages.
+- `traitement.php`    : Fichier php pour la gestion des transactions avec la base de donnee.
+- `users.sql`         : Fichier contenant la structure et les donnees de la base de donnees
+
+
 ## Utilisation
 Le formulaire est compose de deux champs de texte un pour l'identifiant et l'autre pour le mot de passe et trois boutons, *Reinitialiser* pour effacer les champs de textes, *Se connecter* pour s'authentifier et *Ajout Compte*
 pour ajouter un autre utilisateur dans la base de donnee.
