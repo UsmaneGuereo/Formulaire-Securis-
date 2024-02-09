@@ -44,5 +44,5 @@ function afficherMessage(status) {
 
     setTimeout(function() {
         myDiv.classList.add('d-none');
-    }, 800000);
+    }, 4000);
 }
