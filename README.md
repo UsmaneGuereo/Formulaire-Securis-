@@ -20,7 +20,7 @@ Apres on a differents messages selon les resultats des actions qu'on a effectue 
 ![Success SignUp Message](illustrations/signUp.png)
 
 *Et un message qui permet de specififer qu'un identifiant est deja utilise pour eviter toute confusion des utilisateurs*
-![Already Use Message](illustrations/Already use.png)
+![Already Use Message](illustrations/Already_use.png)
 
 ## Informations de connexions
 identifiant : Paris 8
