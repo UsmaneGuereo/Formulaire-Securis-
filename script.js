@@ -3,7 +3,7 @@ const urlParams = new URLSearchParams(window.location.search);
 
 if (urlParams.has('msg')) {
     const message = urlParams.get('msg');
-    
+
     afficherMessage(message);
 }
 
@@ -35,14 +35,14 @@ function afficherMessage(status) {
             myDiv.classList.add('alert-success');
             myDiv.textContent = "Inscription réussie avec succés"
             break;
-    
+
         default:
             break;
     }
 
     myDiv.classList.remove('d-none');
 
-    setTimeout(function() {
+    setTimeout(function () {
         myDiv.classList.add('d-none');
-    }, 800000);
+    }, 4000);
 }
