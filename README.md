@@ -4,17 +4,21 @@ tous ce qui est les operations d'inscription et d'authentification de notre form
 
 ## Détails sur la Structure
 
+- **admin/**          : dossier administration des utilisateurs quthentifies
+  - `indedx.php`      : Page d'accueil des utilisateurs authentifies
+
 - **bootstrap-5.2.3/** 
   - **dist/** 
     - **css/**        : Dossier boostrap css pour le design
     - **js/**         : Dossier boostrap js pour la dynamisation
-  
-- **illustrations/**  : Illustrations des resultats
-  - `success.png`     : Illuatration du message quant on s'est authentifier avec success.
-  - `Failed.png`      : Illuatration du message quant l'authentification a echoue.
-  - `signUp.png`      : Illuatration du message quant on creer un nouveau utilisateur.
-  - `Already_use.png` : Illuatration du message quant l'identifiant qu'on utilise existe deja.
-  - `form.png`        : Illuatration du formulaire de base.
+
+- **illustrations/**  : Illustration des resultats
+  - `admin.png`       : Illustration de la page d'accueil une fois l'utilisateur d'authentifie.
+  - `success.png`     : Illustration du message quant on s'est authentifier avec success.
+  - `Failed.png`      : Illustration du message quant l'authentification a echoue.
+  - `signUp.png`      : Illustration du message quant on creer un nouveau utilisateur.
+  - `Already_use.png` : Illustration du message quant l'identifiant qu'on utilise existe deja.
+  - `form.png`        : Illustration du formulaire de base.
     
 - `index.html`        : Fichier de la structure de base du formulaire.
 - `paris8.png`        : Logo du formulaire.
@@ -44,6 +48,9 @@ Apres on a differents messages selon les resultats des actions qu'on a effectue 
 
 *Et un message qui permet de specififer qu'un identifiant est deja utilise pour eviter toute confusion des utilisateurs*
 ![Already Use Message](illustrations/Already_use.png)
+
+*Si l'utilisateur parviens à s'authentifier, il va etre rediriger dans cette page et il pourra appuyer sur le deconnexion pour se deconnecter*
+![Page d'acceuil](illustrations/admin.png)
 
 ## Informations de connexions
 identifiant : Paris 8
